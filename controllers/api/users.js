@@ -63,6 +63,24 @@ exports.deleteUser = async (req, res) => {
       }
     }
 
+    exports.addUserContact = async (req,res) => {
+        try {
+            await req.contact.require()
+            res.status(200).json({ message: 'Contact Added' })
+        }catch(error){
+            res.status(400).json({ message: error.message })
+        }
+    }
+
+    exports.deleteUserContact = async (req,res) => {
+        try {
+            await req.contact.deleteOne()
+            res.status(200).json({ message: 'Contact Deleted' })
+        }catch(error){
+            res.status(400).json({ message: error.message })
+        }
+    }
+
 exports.show = async (req, res) => {
     try {
         const user = await User.findOne({ _id: req.params.id }).populate("user")
