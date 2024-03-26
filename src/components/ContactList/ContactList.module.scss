@@ -21,8 +21,9 @@
     }
     
     header {
-        background-color: rgb(169, 163, 163);
+        background: linear-gradient(-100deg, rgba(229, 227, 229), rgba(169, 163, 163));
         padding-bottom: 5px;
+        border-radius: 3px;
     }
     
     ::-webkit-scollbar {

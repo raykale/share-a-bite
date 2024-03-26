@@ -135,8 +135,8 @@ export default function UserShowPage(
                 <img className={styles.profilePic} src={profilePic}/>
                 <h2>{userName}</h2>
             </div>
-            <h3>{posts.length} Posts</h3>
-            <h3>{newUserContacts.length} Contacts</h3>
+            <h4>{posts.length} Posts</h4>
+            <h4>{newUserContacts.length} Contacts</h4>
           </div>
           {user._id === userId? <ContactList contacts={contacts} user={user} userId={userId} deleteContact={deleteContact}/> :<></>}
           
