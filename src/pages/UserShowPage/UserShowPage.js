@@ -182,7 +182,8 @@ export default function UserShowPage(
           <img src="https://picsum.photos/200"/></div>
           {user.name}
           {user.email}
-          <NavBar user={user} setUser={setUser}/>
+          <div className={styles.navBar}>
+          <NavBar user={user} setUser={setUser}/></div>
         </div>
        
     )

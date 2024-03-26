@@ -4,15 +4,13 @@ import Contact from '../../components/Contact/Contact'
 export default function ContactList ({ 
     user,
     contacts,
-    userId,
-    deleteContact
+    userId
 }){
     const userContacts = contacts.map(contact =>
         <Contact
             key={contact._id}
             user={user}
             contact={contact}
-            deleteContact={deleteContact}
         />
     )
 
@@ -24,8 +22,7 @@ export default function ContactList ({
         </header>
         <div className={styles.scrollbox}>
       <div className={styles.innerScrollbox}>
-        <div className={styles.userContacts}>
-        {userContacts}</div></div>  
+        {userContacts}</div>  
         </div>
         
         </div>
