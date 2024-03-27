@@ -9,13 +9,20 @@ This is a full-stack MERN application that is built to allow people to connect w
 
 ## App Installation Instructions:
 
-To install the Application in your:
--You need a mongodb link to put in the .env file. Sign up on Mongodb.com
--You need a secret hash to put in the .env file. You can get that on https://emn178.github.io/online-tools/sha256.html 
+To install the Application in your machine:
 
-	In your terminal you want to put:
-		-npm i
-		-npm run dev
+- You need a mongodb link to put in the .env file. Sign up on Mongodb.com
+
+- You need a secret hash to put in the .env file. You can get that on https://emn178.github.io/online-tools/sha256.html 
+
+- Install necessary dependencies with:
+	+ npm i
+
+- Run application in development mode:
+	+ npm run dev
+	
+- If you'd like to deploy the seeded-in data entities, which include users, posts, and restaurants, run:
+	+ npm run seed
 
 ## Trello Board:
 
@@ -53,3 +60,5 @@ https://trello.com/b/scJATDml
 + Absord third-party API to acquire information about restaurants, including location, menu, and website.
 
 + Change the home page into a "feed" that algorithmically determines what content is prioritized for a user based on their restaurant and dish preferences, contacts, past posts, etc.
+
++ Adjust search functionality so that users can find restaurants and access their show pages.
