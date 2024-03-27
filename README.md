@@ -7,6 +7,10 @@ This is a full-stack MERN application that is built to allow people to connect w
 
 ## Live Project Link:
 
+## Pitch Deck Link:
+
+https://docs.google.com/presentation/d/13j-zx0Jf3Pzl8wfHLIPeSPVK7gMc00tSAgcTqPPEvu8/edit?usp=sharing
+
 ## App Installation Instructions:
 
 To install the Application in your machine:
@@ -33,7 +37,7 @@ https://trello.com/b/scJATDml
 
 ![Entity Attributions Diagram](https://i.imgur.com/zTSYJeE.png)
 
-## Backend Structure - Routes
+## Backend Structure - Routes:
 
 ### User Routes
 
@@ -51,7 +55,17 @@ https://trello.com/b/scJATDml
 
 ![Restaurant Routes](https://i.imgur.com/6W0qdze.png)
 
-## Future Enhancements
+## Screenshots of Site:
+
+### Landing/Authentication Page:
+
+![Landing Page](https://i.imgur.com/loYVmK1.png)
+
+### Home Page (After Login):
+
+![Home Page](https://i.imgur.com/iD3QkEf.png)
+
+## Future Enhancements:
 
 + Include a restaurant show page where users can get detailed information about a restaurant and add/delete it from their favorite restaurants list.
 
@@ -62,3 +76,7 @@ https://trello.com/b/scJATDml
 + Change the home page into a "feed" that algorithmically determines what content is prioritized for a user based on their restaurant and dish preferences, contacts, past posts, etc.
 
 + Adjust search functionality so that users can find restaurants and access their show pages.
+
++ Add functionality to allow users to edit the posts and comments that they've created.
+
++ Add functionality to allow users to delete their posts, comments, and profiles.
